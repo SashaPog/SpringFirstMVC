@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>goodbye</title>
+
+    <style>
+        .my-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: linear-gradient(to bottom, #FF6B6B, #E63946); /* Градієнт з червоного вниз */
+            color: white; /* Колір тексту */
+            border: none; /* Видаляємо рамку кнопки */
+            border-radius: 4px; /* Закруглені кути */
+            cursor: pointer; /* Змінюємо курсор при наведенні */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тінь знизу */
+            transition: box-shadow 0.3s; /* Плавна анімація тіні при зміні стану кнопки */
+        }
+
+        /* Стилі для кнопки при наведенні */
+        .my-button:hover {
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Збільшуємо тінь при наведенні */
+        }
+
+        /* Стилі для кнопки при натисканні */
+        .my-button:active {
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3); /* Збільшуємо тінь при натисканні */
+        }
+    </style>
+
+</head>
+<body>
+<h1>Good Bye</h1>
+
+<button class="my-button">
+    <a href="hello">Say hello</a>
+</button>
+
+<button class="my-button">
+    <a href="exit">Exit</a>
+</button>
+
+</body>
+</html>
